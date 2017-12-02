@@ -1,12 +1,12 @@
 {
-  "name": "dimitrimikadze",
+  "name": "rickithadi",
   "version": "0.0.0",
   "authors": [
-    "Dimitri Mikadze"
+    "Hadi Rickit"
   ],
   "main": "app.js",
   "license": "MIT",
-  "homepage": "dimitrimikadze.com",
+  "homepage": "rickithadi.com",
   "ignore": [
     "**/.*",
     "node_modules",
