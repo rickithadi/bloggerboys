@@ -1,4 +1,5 @@
 var express         = require("express");
+var helmet 	    = require('helmet');
 var app             = express();
 var mongoose        = require("mongoose");
 var bodyParser      = require("body-parser");
@@ -21,6 +22,7 @@ app.engine("html", require("ejs").renderFile);
 app.set("views", __dirname + "/../client/views");
 
 // use
+app.use(helmet());
 app.use(express.static("../client/public"));
 app.use(express.static("../client/app"));
 app.use(bodyParser.urlencoded({ extended: false }));
